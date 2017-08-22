@@ -1,0 +1,67 @@
+{
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_receiver",
+          "type": "address"
+        },
+        {
+          "name": "_value",
+          "type": "uint256"
+        }
+      ],
+      "name": "transfer",
+      "outputs": [
+        {
+          "name": "_sufficient",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "_addr",
+          "type": "address"
+        }
+      ],
+      "name": "getBalance",
+      "outputs": [
+        {
+          "name": "_balance",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "payable": false,
+      "type": "constructor"
+    }
+  ],
+  "contract_name": "Account",
+  "networks": {
+    "1502092935067": {
+      "address": "0xbff253ac1421a10ab34721967ec8782104211b9b",
+      "events": {},
+      "links": {},
+      "updated_at": 1502096242570
+    },
+    "1502105845288": {
+      "address": "0x90286788cf2b7c29c8db699e1bccd03c291e6c76",
+      "events": {},
+      "links": {},
+      "updated_at": 1502111313086
+    }
+  },
+  "schema_version": "0.0.5",
+  "unlinked_binary": "0x6060604052341561000f57600080fd5b5b600160a060020a033316600090815260208190526040902061271090555b5b61019c8061003e6000396000f300606060405263ffffffff7c0100000000000000000000000000000000000000000000000000000000600035041663a9059cbb8114610048578063f8b2cb4f1461008b575b600080fd5b341561005357600080fd5b61007773ffffffffffffffffffffffffffffffffffffffff600435166024356100c9565b604051901515815260200160405180910390f35b341561009657600080fd5b6100b773ffffffffffffffffffffffffffffffffffffffff60043516610144565b60405190815260200160405180910390f35b73ffffffffffffffffffffffffffffffffffffffff3316600090815260208190526040812054829010156100ff5750600061013e565b5073ffffffffffffffffffffffffffffffffffffffff808316600090815260208190526040808220805485019055339092168152208054829003905560015b92915050565b73ffffffffffffffffffffffffffffffffffffffff81166000908152602081905260409020545b9190505600a165627a7a723058208da820b18a6c086c02608991c2daa83e755269bec7487b03047c3cc1ee42a5020029",
+  "updated_at": 1502111313086
+}
