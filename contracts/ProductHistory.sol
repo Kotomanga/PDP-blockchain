@@ -10,7 +10,7 @@ contract ProductHistory {
 	struct HistoryDetail{
 		address currentOwnerId;
 		string vendorName;
-		Vendor[] previusOwners;
+		address[] previusOwners;
 	}
 
 	mapping (string => HistoryDetail) historyMap;
